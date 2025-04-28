@@ -1,4 +1,4 @@
-# 🛡️ toolDb - Your Pentesting Command Arsenal
+# 🛡️ toolDb - QUICK REFERENCE GUIDE TO USEFUL TOOLS AND COMMANDS
 
 <div align="center">
 
@@ -9,14 +9,14 @@
 
 </div>
 
-A sleek, modern interface for managing and organizing your penetration testing tools and commands. Built with React, TypeScript, and Chakra UI, featuring a cyberpunk-inspired design.
+A fun interface for managing and organizing pen testing tools and commands. Built with React, TypeScript, and Chakra UI.
 
 ## 🚀 Features
 
-- 📝 Comprehensive collection of common pentesting tools and commands
-- 🔍 Real-time search across tools, descriptions, and commands
+- 📝 Collection of tools and commands
+- 🔍 Search across tools, descriptions, and commands
 - 🏷️ Category-based filtering system
-- 🎨 Cyberpunk-themed UI with smooth animations
+- 🎨 Interactive UI with smooth animations
 - ➕ Add your own tools and commands
 - 📱 Fully responsive design
 - 🌙 Dark mode optimized
