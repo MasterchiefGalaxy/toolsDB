@@ -1,54 +1,134 @@
-# React + TypeScript + Vite
+# 🛡️ toolDb - Your Pentesting Command Arsenal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+![toolDb](https://img.shields.io/badge/toolDb-1.0.0-brightgreen)
+![React](https://img.shields.io/badge/React-19.0.0-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-Latest-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</div>
 
-## Expanding the ESLint configuration
+A sleek, modern interface for managing and organizing your penetration testing tools and commands. Built with React, TypeScript, and Chakra UI, featuring a cyberpunk-inspired design.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Features
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- 📝 Comprehensive collection of common pentesting tools and commands
+- 🔍 Real-time search across tools, descriptions, and commands
+- 🏷️ Category-based filtering system
+- 🎨 Cyberpunk-themed UI with smooth animations
+- ➕ Add your own tools and commands
+- 📱 Fully responsive design
+- 🌙 Dark mode optimized
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tools Included
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Reconnaissance
+- Nmap (Network scanning and enumeration)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### Web Security
+- Burp Suite (Web application testing)
+- SQLMap (SQL injection automation)
+- Gobuster (Directory enumeration)
+- Nikto (Web server scanning)
+- Dirb (Web content scanning)
+
+### Password Attacks
+- Hydra (Password brute-forcing)
+- John the Ripper (Password cracking)
+- Hashcat (Advanced password recovery)
+
+### Network Analysis
+- Wireshark (Packet analysis)
+- Responder (LLMNR/NBT-NS/MDNS poisoning)
+
+### Wireless
+- Aircrack-ng (Wireless security testing)
+
+### Post Exploitation
+- Empire (Post-exploitation framework)
+- Mimikatz (Credential dumping)
+
+## 🏃‍♂️ Quick Start
+
+1. Clone the repository:
+\`\`\`bash
+git clone https://github.com/yourusername/toolDb.git
+cd toolDb
+\`\`\`
+
+2. Install dependencies:
+\`\`\`bash
+npm install
+\`\`\`
+
+3. Start the development server:
+\`\`\`bash
+npm run dev
+\`\`\`
+
+4. Open your browser and navigate to \`http://localhost:5173\`
+
+## 💻 Development
+
+The project uses:
+- React 19.0.0
+- TypeScript
+- Vite
+- Chakra UI
+- React Icons
+
+### Project Structure
+\`\`\`
+src/
+├── pages/
+│   └── Tools.tsx      # Main tools interface
+├── App.tsx           # Root component
+├── main.tsx         # Entry point
+└── index.css        # Global styles
+\`\`\`
+
+## 🎨 Customization
+
+### Adding New Tools
+
+1. Click the "Add New Tool" button
+2. Fill in the tool details:
+   - Name
+   - Category
+   - Description
+   - Commands (one per line)
+3. Click "Add Tool" to save
+
+### Categories
+
+Current categories include:
+- Reconnaissance
+- Web Security
+- Password Attacks
+- Network Analysis
+- Wireless
+- Post Exploitation
+- Network Attacks
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create a feature branch (\`git checkout -b feature/AmazingFeature\`)
+3. Commit your changes (\`git commit -m 'Add some AmazingFeature'\`)
+4. Push to the branch (\`git push origin feature/AmazingFeature\`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🔒 Disclaimer
+
+This tool is designed for educational purposes and legitimate penetration testing activities only. Users are responsible for ensuring they comply with all applicable laws and regulations when using the included tools and commands.
+
+## 🌟 Show Your Support
+
+Give a ⭐️ if this project helped you!
